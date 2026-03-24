@@ -123,3 +123,5 @@ Saved/Logs/*
 DerivedDataCache/Boot.ddc
 DerivedDataCache/Compressed.ddp
 
+#device specific local workspace
+Content/Developers/
