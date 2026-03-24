@@ -1,6 +1,19 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+#VS Code
+.vscode/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
 # Compiled Object files
 *.slo
 *.lo
@@ -73,3 +86,40 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Environment
+.env
+.env*
+*.env
+
+#API Keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+
+# Local Config Overrides
+*.local
+*.secret
+*.override
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.tmp
+*.temp
+
+# Autosaves
+*autosave*
+
+# Local user settings (machine-specific)
+Saved/Config/WindowsEditor/*
+Saved/Config/Windows/*
+Saved/Logs/*
+
+# Shader cache (can get huge)
+DerivedDataCache/Boot.ddc
+DerivedDataCache/Compressed.ddp
+
